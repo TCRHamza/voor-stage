@@ -1,0 +1,40 @@
+h1{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+ 
+    }
+    
+   
+  }
+  h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+  }
+h3{
+  font-size: 16;
+  color: teal;
+  font-weight: bold;
+}
+ p{
+color:  #4D4D4D;
+border-style: solid;
+border-radius: 8px;
+border-color: aqua;
+border-left-width: 15px;
+ }
+ a{ 
+  color: #8A2BE2;
+  text-decoration: none;
+ }
+p.p1{
+  font-weight: bold;
+}
+header{
+  width: 33%;
+  background-image: url(11.jpg);
+}
+   
+ 
