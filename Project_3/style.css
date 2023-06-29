@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+:root {
+  --color-primary: #0073ff;
+  --color-white: #e9e9e9;
+  --color-black: #141d28;
+  --color-black-1: #212b38;
+
+}
+
+.body{
+    background-color:white ;
+}
+
+#Retourfoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer1{
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 5%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    background-color: white;   
+}
+ 
+  .iphonescreen{
+  width: 300px;
+  border-style: solid;
+  }
+  body{
+    background-color:white;
+    
+  }
+
+  #milieufoto{ 
+    /* hier verander ik de breedte en probeer ik hem zo goed mogelijk naar het midden te krijgen*/
+     width: 50vw;
+      margin-left: 400px;
+  }
+  
+  header{
+    width: 100%;
+ ;
+  }
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+ 
+
+.iphonescreen{
+    width: 300px;
+    border-style: solid;
+}
+
+.iphoneoplader{
+    width: 300px;
+    border-style: solid;
+    margin-left: 200px;
+    height: 300px;
+}
+
+.popsocket{
+    width: 300px;
+    border-style: solid;
+    margin-left: 200px;
+    height: 300px;
+}
+
+.kleur{
+    color: black;
+}
+  
+
+.bg-img {
+  /* The image used */
+  background-image: url("fixedBuilding.png");
+
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.BetaPic {
+  display: flex;
+}
+
+/* inlog css */ 
+
+.inlogform{
+  width: 350px;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+}
+
+.inlogform h1{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+.inlogform p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.inlogform input{
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.inlogform button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+}
+
+.wwvergeten{
+  color: white;
+  text-decoration: none;
+}
+
+.aanmelden{
+  color: white;
+  text-decoration: none;
+}
+/*Producten main*/
+.Producten{
+  display: flex;
+  justify-content: center;
+}
+
+
+section{
+  width: 100%;
+  height: 100vh;
+}
+
+section header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+section header .logo{
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+section header .logo span{
+  color: #4bb1eb;
+}
+
+section header ul{
+  list-style: none;
+}
+
+section header ul li{
+  display: inline-block;
+  margin: 5px 5px;
+  padding: 5px 20px;
+}
+
+section header ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+section header ul li a:hover{
+  color: #f9004d;
+}
+
+section header p{
+  cursor: pointer;
+  padding: 10px 25px;
+  border: 1px solid #4bb1eb;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+section header p:hover{
+  color: white;
+  background: #4bb1eb;
+}
+
+table,tr,th,td
+{
+    border: 2px solid black;
+    width: 60%;
+    height: 40px
+}
+
+.cat_main {
+  min-height: 80.8vh;
+}
+.cat_h1_container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+#cat_h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.cat_table_container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.cat_table {
+  width: 50%;
+  border: black solid 1px;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+.cat_table th {
+  background-color: gray;
+  border: black solid 1px;
+  border-collapse: collapse;
+  color: white;
+}
+.cat_table td {
+  border: black solid 1px;
+  border-collapse: collapse;
+}
+.cat_table_btn {
+  width: 100%;
+}
+.cat_table td {
+  background-color: #DD4040;
+  color: white;
+}
+.cat_toevoeg_btn_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#cat_toevoeg_btn {
+  font-size: 20px;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.cat_toe_main {
+  height: 80.9vh;
+}
+.cat_toe_cont {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+#cat_toe_h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#cat_toe_form_cont {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Categorie Wijzig CSS code */
+.cat_wzg_h1_cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.cat_wzg_form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.cat_wzg_main {
+  height: 78.6vh;
+}
+
+
+
+
